@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Baloo+2:wght@600;800&family=Coiny&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 4% 2%; background: linear-gradient(180deg, #ff6cc4, #4d18b6); background-attachment: fixed; color: #333; font-family: 'Alata', sans-serif; box-sizing: border-box;">
+
+    <div style="width: 100%; max-width: 850px; margin: 0 auto; background: rgba(255, 255, 255, 0.97); border-radius: 20px; padding: 5% 3%; box-shadow: 0 20px 50px rgba(0,0,0,0.3); box-sizing: border-box;">
+        
+        <!-- Header -->
+        <div style="text-align: center; margin-bottom: 25px;">
+            <span style="font-family: 'Baloo 2', sans-serif; font-size: clamp(20px, 4vw, 26px); color: #4d18b6; display: block; margin-bottom: -5px; font-weight: 600;">Tiệm in</span>
+            <h1 style="font-family: 'Baloo 2', sans-serif; font-size: clamp(40px, 10vw, 70px); color: #ff6cc4; margin: 0 0 -8px 0; text-transform: uppercase; text-shadow: 3px 3px 0px #4d18b6; line-height: 1.2;">Memi</h1>
+            <span style="font-family: 'Baloo 2', sans-serif; font-size: clamp(20px, 4vw, 26px); color: #4d18b6; display: block; margin-bottom: -5px; font-weight: 600;">Universe</span>
+        </div>
+
+        <!-- Social Links -->
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-bottom: 35px;">
+            <a href="https://www.facebook.com/profile.php?id=61590153240613&locale=vi_VN" target="_blank" style="text-decoration: none; background: #ffffff; color: #4d18b6; padding: 8px 14px; border-radius: 30px; font-size: 13px; font-weight: bold; border: 2px solid #f0d0e6; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="https://api.iconify.design/logos:facebook.svg" width="18" height="18" alt="Facebook">
+                Facebook
+            </a>
+            <a href="https://www.tiktok.com/@memi.universe" target="_blank" style="text-decoration: none; background: #ffffff; color: #4d18b6; padding: 8px 14px; border-radius: 30px; font-size: 13px; font-weight: bold; border: 2px solid #f0d0e6; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="https://api.iconify.design/logos:tiktok-icon.svg" width="18" height="18" alt="TIKTOK">
+                TIKTOK
+            </a>
+            <a href="https://zalo.me/0372043791" target="_blank" style="text-decoration: none; background: #ffffff; color: #4d18b6; padding: 8px 14px; border-radius: 30px; font-size: 13px; font-weight: bold; border: 2px solid #f0d0e6; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="https://api.iconify.design/simple-icons:zalo.svg?color=%230068ff" width="18" height="18" alt="Zalo">
+                 0372043791
+            </a>
+            <a href="https://www.instagram.com/memi_universe?igsh=ZWZtYmV4YXlha3Vq&igsi=ZWZtYmV4YXlha3Vq" target="_blank" style="text-decoration: none; background: #ffffff; color: #4d18b6; padding: 8px 14px; border-radius: 30px; font-size: 13px; font-weight: bold; border: 2px solid #f0d0e6; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="https://api.iconify.design/skill-icons:instagram.svg" width="18" height="18" alt="Instagram">
+                Instagram
+            </a>
+            <a href="https://www.threads.com/@memi_universe" target="_blank" style="text-decoration: none; background: #ffffff; color: #4d18b6; padding: 8px 14px; border-radius: 30px; font-size: 13px; font-weight: bold; border: 2px solid #f0d0e6; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                <img src="https://api.iconify.design/bi:threads.svg?color=black" width="18" height="18" alt="Threads">
+                Threads
+            </a>
+        </div>
+
+        <!-- 1. BẢNG GIÁ IN LẺ KÈM HÌNH ẢNH MINH HỌA -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #4d18b6; text-align: center; margin: 30px 0 10px 0; background: #f9e1f0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800;">BẢNG GIÁ IN LẺ & THIẾT KẾ</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">Chủ động lựa chọn số lượng và kiểu dáng theo nhu cầu</div>
+        
+        <!-- Khu vực minh họa kiểu in -->
+        <div style="display: flex; gap: 20px; align-items: stretch; justify-content: center; margin-bottom: 25px; font-family: 'Baloo 2', sans-serif; width: 100%; box-sizing: border-box; flex-wrap: wrap;">
+
+            <!-- CỘT 1 -->
+            <div style="background: #fdf5fc; border-radius: 18px; padding: 16px 8px 12px 8px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; border: 2px dashed #b17cd9; position: relative; flex: 1 1 180px;">
+                <div style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(90deg, #6b1fb3, #9b30d3, #6b1fb3); color: #ffffff; padding: 2px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 5px rgba(0,0,0,0.15);">
+                    <span>Tràn Viền</span>
+                </div>
+                <div style="display: flex; gap: 8px; justify-content: center; align-items: flex-end; width: 100%; margin-top: 10px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; width: 100%; max-width: 90px;">
+                        <div style="background: #ffffff; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 1 / 1.4;">
+                            <img src="https://lh3.googleusercontent.com/d/1ov4i2TpyJ6VC3zLiZ26_Qzrp07AQqfA7" alt="Ảnh Tràn Viền" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                    </div>
+                </div>
+                <div style="color: #4d18b6; font-size: 11px; font-weight: bold; text-align: center; margin-top: 8px; line-height: 1.2;">
+                    Không chỉnh màu nền, chữ
+                </div>
+            </div>
+
+            <!-- CỘT 2 -->
+            <div style="background: #fdf5fc; border-radius: 18px; padding: 16px 8px 12px 8px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; border: 2px dashed #b17cd9; position: relative; flex: 2 1 240px;">
+                <div style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(90deg, #6b1fb3, #9b30d3, #6b1fb3); color: #ffffff; padding: 2px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: flex; gap: 10px;">
+                    <span>Viền Đều</span>
+                    <span>Polaroid</span>
+                </div>
+                <div style="display: flex; gap: 8px; justify-content: center; align-items: flex-end; width: 100%; margin-top: 10px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; max-width: 90px;">
+                        <div style="background: #ffffff; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 1 / 1.4;">
+                            <img src="https://lh3.googleusercontent.com/d/1q3oN-xQDbZkyJ1lqhHwvnDwVYcAIgHFc" alt="Viền Đều Màu" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; max-width: 90px;">
+                        <div style="background: #ffffff; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 1 / 1.4;">
+                            <img src="https://lh3.googleusercontent.com/d/1QrCpOlxvb5gJK_V0aRZS3mmzqIV7GFw8" alt="Polaroid Màu" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                    </div>
+                </div>
+                <div style="color: #4d18b6; font-size: 11px; font-weight: bold; text-align: center; margin-top: 8px; line-height: 1.2;">
+                    Có thể chọn nền TRẮNG hoặc ĐEN
+                </div>
+            </div>
+
+            <!-- CỘT 3 -->
+            <div style="background: #fdf5fc; border-radius: 18px; padding: 16px 8px 12px 8px; display: flex; flex-direction: column; justify-content: space-between; box-sizing: border-box; border: 2px solid #a852e3; position: relative; flex: 2 1 240px;">
+                <div style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(90deg, #6b1fb3, #9b30d3, #6b1fb3); color: #ffffff; padding: 2px 10px; border-radius: 15px; font-size: 12px; font-weight: bold; white-space: nowrap; box-shadow: 0 2px 5px rgba(0,0,0,0.15); display: flex; gap: 10px;">
+                    <span>Viền Đều Màu</span>
+                    <span>Polaroid Màu</span>
+                </div>
+                <div style="display: flex; gap: 8px; justify-content: center; align-items: flex-end; width: 100%; margin-top: 10px;">
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; max-width: 90px;">
+                        <div style="background: #ffffff; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 1 / 1.4;">
+                            <img src="https://lh3.googleusercontent.com/d/1txHKGwBtnFwlo2B2v3Q8sMJ8ANvFZ0Rs" alt="Viền Đều Màu" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; flex: 1; max-width: 90px;">
+                        <div style="background: #ffffff; box-shadow: 0 3px 8px rgba(0,0,0,0.1); width: 100%; aspect-ratio: 1 / 1.4;">
+                            <img src="https://lh3.googleusercontent.com/d/1bMM7ydHB8jRbsvIli5pKVjIoWesQGDed" alt="Polaroid Màu" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                    </div>
+                </div>
+                <div style="color: #4d18b6; font-size: 11px; font-weight: bold; text-align: center; margin-top: 8px; line-height: 1.2;">
+                    Khách gửi mã màu để Memi in theo yêu cầu nhé!
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BẢNG 1: IN LẺ -->
+        <table style="width: 100%; border-collapse: collapse; background: white; table-layout: fixed; word-wrap: break-word; margin-bottom: 20px;">
+            <thead>
+                <tr>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; background-color: #f7e6f0; color: #8e4a7a; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; width: 34%;">Kích Thước</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; background-color: #f7e6f0; color: #8e4a7a; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; width: 33%;">Giấy Bóng</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; background-color: #f7e6f0; color: #8e4a7a; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; width: 33%;">Giấy Lụa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">Size 3x4</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">6.000đ</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; color: #d63384; font-weight: bold; font-size: clamp(12px, 3vw, 15px);">7.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">Size 4x6</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">8.500đ</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; color: #d63384; font-weight: bold; font-size: clamp(12px, 3vw, 15px);">9.500đ</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">Size 5x7</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">11.000đ</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; color: #d63384; font-weight: bold; font-size: clamp(12px, 3vw, 15px);">12.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">Size 6x9</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">14.000đ</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; color: #d63384; font-weight: bold; font-size: clamp(12px, 3vw, 15px);">15.000đ</td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">Size 10x15</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(12px, 3vw, 15px);">31.000đ</td>
+                    <td style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; color: #d63384; font-weight: bold; font-size: clamp(12px, 3vw, 15px);">32.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 2. MENU COMBO TIẾT KIỆM -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #4d18b6; text-align: center; margin: 30px 0 10px 0; background: #f9e1f0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800;">🎁 MEMI RECOMMEND - COMBO TIẾT KIỆM</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">Khuyên dùng: Giải pháp in ấn thông minh - Tiết kiệm tối đa chi phí</div>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+            <div style="flex: 1 1 200px; background: #ffffff; border: 2px solid #ff6cc4; border-radius: 15px; padding: 15px 10px; text-align: center; position: relative; box-shadow: 0 8px 20px rgba(255, 108, 196, 0.15); box-sizing: border-box;">
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 18px; font-weight: 800; color: #4d18b6; margin-bottom: 8px;">Combo 12 Ảnh (3x4)</div>
+                <div style="font-size: 11px; background: #4d18b6; color: white; padding: 4px 8px; border-radius: 20px; display: inline-block; margin-bottom: 8px;">✨ MIỄN PHÍ Tùy chọn Lụa/Bóng</div>
+                <div style="text-decoration: line-through; color: #999; font-size: 13px; margin-top: 5px;">Mua lẻ (Lụa): 84.000đ</div>
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 26px; color: #ff6cc4; margin: 5px 0;">58.000đ</div>
+                <div style="font-size: 12px;">Tiết kiệm tối đa chi phí</div>
+            </div>
+
+            <div style="flex: 1 1 200px; background: #ffffff; border: 2px solid #ff6cc4; border-radius: 15px; padding: 15px 10px; text-align: center; position: relative; box-shadow: 0 8px 20px rgba(255, 108, 196, 0.15); box-sizing: border-box;">
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 18px; font-weight: 800; color: #4d18b6; margin-bottom: 8px;">Combo 10 Ảnh (4x6)</div>
+                <div style="font-size: 11px; background: #4d18b6; color: white; padding: 4px 8px; border-radius: 20px; display: inline-block; margin-bottom: 8px;">✨ MIỄN PHÍ Tùy chọn Lụa/Bóng</div>
+                <div style="text-decoration: line-through; color: #999; font-size: 13px; margin-top: 5px;">Mua lẻ (Lụa): 95.000đ</div>
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 26px; color: #ff6cc4; margin: 5px 0;">70.000đ</div>
+                <div style="color: #d63384; font-weight: bold; font-size: 12px; margin-top: 8px; background: #ffe6f2; padding: 6px; border-radius: 8px; border: 1px dashed #d63384;">🎁 TẶNG KÈM 04 ẢNH 3x4</div>
+            </div>
+
+            <div style="flex: 1 1 200px; background: #ffffff; border: 2px solid #ff6cc4; border-radius: 15px; padding: 15px 10px; text-align: center; position: relative; box-shadow: 0 8px 20px rgba(255, 108, 196, 0.15); box-sizing: border-box;">
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 18px; font-weight: 800; color: #4d18b6; margin-bottom: 8px;">Combo 08 Ảnh (5x7)</div>
+                <div style="font-size: 11px; background: #4d18b6; color: white; padding: 4px 8px; border-radius: 20px; display: inline-block; margin-bottom: 8px;">✨ MIỄN PHÍ Tùy chọn Lụa/Bóng</div>
+                <div style="text-decoration: line-through; color: #999; font-size: 13px; margin-top: 5px;">Mua lẻ (Lụa): 96.000đ</div>
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 26px; color: #ff6cc4; margin: 5px 0;">74.000đ</div>
+                <div style="font-size: 12px;">Kích thước lớn - Dễ trang trí</div>
+            </div>
+
+            <div style="flex: 1 1 200px; background: #ffffff; border: 2px solid #ff6cc4; border-radius: 15px; padding: 15px 10px; text-align: center; position: relative; box-shadow: 0 8px 20px rgba(255, 108, 196, 0.15); box-sizing: border-box;">
+                <div style="position: absolute; top: -10px; right: -5px; background: #ff6cc4; color: white; padding: 2px 10px; border-radius: 20px; font-size: 11px; font-family: 'Baloo 2', sans-serif; font-weight: 800; border: 2px solid white;">MỚI</div>
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 18px; font-weight: 800; color: #4d18b6; margin-bottom: 8px;">Combo 06 Ảnh (6x9)</div>
+                <div style="font-size: 11px; background: #4d18b6; color: white; padding: 4px 8px; border-radius: 20px; display: inline-block; margin-bottom: 8px;">✨ MIỄN PHÍ Tùy chọn Lụa/Bóng</div>
+                <div style="text-decoration: line-through; color: #999; font-size: 13px; margin-top: 5px;">Mua lẻ (Lụa): 90.000đ</div>
+                <div style="font-family: 'Baloo 2', sans-serif; font-size: 26px; color: #ff6cc4; margin: 5px 0;">75.000đ</div>
+                <div style="color: #d63384; font-weight: bold; font-size: 12px; margin-top: 8px; background: #ffe6f2; padding: 6px; border-radius: 8px; border: 1px dashed #d63384;">🎁 TẶNG KÈM 06 ẢNH 3x4</div>
+            </div>
+        </div>
+
+        <!-- 3. BẢNG GIÁ ẢNH THẺ -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); text-align: center; margin: 30px 0 10px 0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800; background: #e6f0fa; color: #1e5a8c;">👔 BẢNG GIÁ ẢNH THẺ</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">✅ Miễn phí tùy chọn Nền Trắng hoặc Nền Xanh</div>
+        
+        <!-- BẢNG 2: ẢNH THẺ -->
+        <table style="width: 100%; border-collapse: collapse; background: white; table-layout: fixed; word-wrap: break-word; margin-bottom: 20px;">
+            <thead>
+                <tr>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; background-color: #e6f0fa; color: #1e5a8c; width: 32%;">Phân Loại</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; background-color: #e6f0fa; color: #1e5a8c; width: 44%;">Chi Tiết / Số Lượng</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(13px, 3.5vw, 17px); font-weight: 800; background-color: #e6f0fa; color: #1e5a8c; width: 24%;">Giá Bán</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3" style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">In Lẻ<br>(1 Hình)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 2x3 cm</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 3x4 cm</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 4x6 cm</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                
+                <tr style="background-color: #fff5f8;">
+                    <td rowspan="3" style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Combo Tiết Kiệm</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 2x3 cm (25 Hình)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 3x4 cm (12 Hình)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Size 4x6 cm (5 Hình)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="3" style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Combo Mix Size</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">03 Hình (4x6) + 04 Hình (3x4)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">02 Hình (4x6) + 10 Hình (2x3)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">02 (4x6) + 04 (3x4) + 05 (2x3)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td colspan="3" style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: 13px; color: #d63384; font-weight: bold; background: #fff5f8;">
+                        ✨ Liên hệ Memi để mix size theo yêu cầu ✨
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 4. BẢNG GIÁ PHOTOSTRIP KÈM HÌNH ẢNH TRỰC TIẾP -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #4d18b6; text-align: center; margin: 30px 0 10px 0; background: #f9e1f0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800;">🎞️ BẢNG GIÁ PHOTOSTRIP</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">Lưu giữ khoảnh khắc phong cách Hàn Quốc</div>
+        
+        <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+            <img src="Memi Bảng giá A4 (2).png" alt="Mẫu Photostrip Size 5x15" style="flex: 1 1 150px; width: 100%; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border: 2px solid #f9e1f0; object-fit: cover;">
+            <img src="Memi Bảng giá A4 (3).png" alt="Mẫu Photostrip Size 10x15" style="flex: 1 1 150px; width: 100%; max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border: 2px solid #f9e1f0; object-fit: cover;">
+        </div>
+
+        <!-- BẢNG 3: PHOTOSTRIP -->
+        <table style="width: 100%; border-collapse: collapse; background: white; table-layout: fixed; word-wrap: break-word; margin-bottom: 10px;">
+            <thead>
+                <tr>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #e8d8f8; color: #4d18b6; width: 36%;">Phân loại</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #e8d8f8; color: #4d18b6; width: 32%;">Mini Strip<br><span style="font-family: 'Alata', sans-serif; font-size: 10px; font-weight: normal; display: block; color: #6a345a;">(3x9 cm)</span></th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #e8d8f8; color: #4d18b6; width: 32%;">Normal Strip<br><span style="font-family: 'Alata', sans-serif; font-size: 10px; font-weight: normal; display: block; color: #6a345a;">(5x15 cm)</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Viền Trắng/Đen</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">12.500đ</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">25.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Viền Màu sắc</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">12.500đ</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">25.000đ</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">Custom yêu cầu</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 25px; font-size: 12px;">*Giá áp dụng cho 1 đơn vị sản phẩm (1 dải ảnh)</div>
+
+        <!-- 5. BẢNG GIÁ CÁC SẢN PHẨM KHÁC -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); text-align: center; margin: 30px 0 10px 0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800; background: #ffecd2; color: #d97706;">✨ SẢN PHẨM QUÀ TẶNG & PHỤ KIỆN</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">Trang trí không gian và lưu giữ kỷ niệm thêm phần độc đáo</div>
+        
+        <!-- BẢNG 4: SẢN PHẨM KHÁC -->
+        <table style="width: 100%; border-collapse: collapse; background: white; table-layout: fixed; word-wrap: break-word; margin-bottom: 20px;">
+            <thead>
+                <tr>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #ffecd2; color: #d97706; width: 33%;">Tên Sản Phẩm</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #ffecd2; color: #d97706; width: 43%;">Mô Tả / Số Lượng</th>
+                    <th style="padding: 8px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; font-size: clamp(12px, 3.2vw, 16px); font-weight: 800; background-color: #ffecd2; color: #d97706; width: 24%;">Giá Bán</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2" style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Ảnh Instax Mini<br>(5.4x8.6cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">Khung Trắng (Set 6 hình)<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">72.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">Thiết Kế Custom (Set 6)<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-family: 'Baloo 2', sans-serif; color: #ff6cc4; font-size: clamp(13px, 3.5vw, 16px);">???</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Móc Khóa Tròn<br>(3.3cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Móc + Ảnh in 2 mặt<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">60.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Móc Khóa Vuông<br>(3.2cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Móc + Ảnh in 2 mặt<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">60.000đ</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Móc Khóa Chữ Nhật<br>(3.5x5cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Móc + Ảnh in 2 mặt<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">65.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Móc Khóa Dài<br>(2.5x7.5cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Móc + Ảnh in 2 mặt<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">70.000đ</td>
+                </tr>
+                <tr>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Album Mini 1 Inch<br>(3x4cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Cuốn + 16 Ảnh 3x4<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">147.000đ</td>
+                </tr>
+                <tr style="background-color: #fff5f8;">
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-weight: bold; color: #4d18b6; font-size: clamp(11px, 3vw, 14px);">Album Mini 2 Inch<br>(4x6cm)</td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 13px);">1 Cuốn + 16 Ảnh 4x6<br><a href="LINK_ANH_CUA_BAN" target="_blank" style="display: inline-block; margin-top: 3px; padding: 2px 6px; background: #ffe6f2; color: #d63384; border-radius: 10px; font-size: 10px; font-family: 'Alata', sans-serif; font-weight: bold; text-decoration: none; border: 1px dashed #ff6cc4;">🖼️ Xem mẫu</a></td>
+                    <td style="padding: 6px 4px; text-align: center; border: 1px solid #f0d0e6; vertical-align: middle; font-size: clamp(11px, 3vw, 14px);">185.000đ</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- SO SÁNH CHẤT LIỆU GIẤY IN -->
+        <div style="font-family: 'Baloo 2', sans-serif; font-size: clamp(18px, 4vw, 24px); color: #4d18b6; text-align: center; margin: 30px 0 10px 0; background: #f9e1f0; padding: 10px 15px; border-radius: 12px; text-transform: uppercase; font-weight: 800;">✨ CHẤT LIỆU GIẤY IN ✨</div>
+        <div style="text-align: center; font-style: italic; color: #666; margin-bottom: 20px; font-size: 13px;">Sự khác biệt giữa giấy Bóng và giấy Lụa</div>
+        <img src="so sánh chất liệu giấy in bóng và lụa.jpg" alt="So sánh chất liệu giấy in Bóng và Lụa" style="width: 100%; max-width: 100%; height: auto; border-radius: 12px; margin-bottom: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border: 2px solid #f9e1f0; object-fit: cover;">
+
+        <!-- Banner Custom Note -->
+        <div style="text-align: center; background: linear-gradient(90deg, #ff6cc4, #4d18b6); color: white; padding: 12px; border-radius: 12px; font-family: 'Baloo 2', sans-serif; font-size: clamp(14px, 3.5vw, 18px); font-weight: 800; margin-top: 30px; box-shadow: 0 8px 20px rgba(77, 24, 182, 0.2); text-transform: uppercase; line-height: 1.4;">
+            ✨ Nhận custom theo yêu cầu & Custom size theo yêu cầu ✨
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin-top: 15px; font-size: 12px; color: #4d18b6; background: #f9e1f0; padding: 10px; border-radius: 12px; font-weight: bold; line-height: 1.4;">
+            ⭐ CHẤT LƯỢNG DNP NHẬT BẢN: Chống nước - Nét mịn - Không phai màu - Không bám vân tay ⭐
+        </div>
+
+    </div>
+
+</body>
+</html>
